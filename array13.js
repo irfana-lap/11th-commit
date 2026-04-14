@@ -11,4 +11,4 @@ let users = [
   { name: "Kiran", age: 17 }
 ];
 
-console.log(getAdultUsers(users));
+console.log(getAdultUsers(user));
