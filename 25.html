@@ -1,0 +1,7 @@
+<script>
+document.querySelectorAll(".myClass").forEach(el => {
+  if (!el.innerText.startsWith("Hello")) {
+    el.innerText = "Hello " + el.innerText;
+  }
+});
+</script>
