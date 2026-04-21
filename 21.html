@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is LONG TEXT example</p>
+<p>Short</p>
+<p>HELLO EVERYONE</p>
+
+<script>
+let paras = document.querySelectorAll("p");
+
+paras.forEach(function(p) {
+    if (p.innerText.length > 10) {
+        p.innerText = p.innerText.toLowerCase();
+    }
+});
+</script>
+
+</body>
+</html>
